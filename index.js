@@ -7,7 +7,7 @@ const { PORT } = process.env
 
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
-app.use("/", require("./router/Index"))
+app.use("/", require("./router/index"))
 
 app.listen(PORT, async () => {
   await require("./config/db-config")()

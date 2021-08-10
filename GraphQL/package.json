@@ -1,12 +1,12 @@
 {
-  "name": "GraphQL",
+  "name": "urlShortenerGQL",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
+  "keywords": ["url-shortener, graphql-url-shortener"],
   "author": "",
   "license": "ISC",
   "dependencies": {
