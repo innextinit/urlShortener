@@ -6,7 +6,8 @@ const { systemURL } = process.env
 class controller {
     static async welcome(req, res, next) {
         try {
-            return res.sendFile(path.join(__dirname, "..", "/README.md"))
+            let alldata = await URL.find()
+            return res.status(200).json(alldata)
         } catch (error) {
             next(error)
         }
