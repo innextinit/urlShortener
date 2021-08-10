@@ -4,7 +4,7 @@
   "description": "url-shortener for REST and GraphQL",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [
     "url-shortener"
