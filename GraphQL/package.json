@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": ["url-shortener, graphql-url-shortener"],
+  "keywords": [
+    "url-shortener, graphql-url-shortener"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
