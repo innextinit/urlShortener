@@ -4,7 +4,7 @@ const controller = require("../controller/index")
 
 router.get(
   "/",
-  controller.welcome
+  controller.allData
 )
 
 router.post(

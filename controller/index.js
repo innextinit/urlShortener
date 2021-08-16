@@ -4,7 +4,7 @@ const path = require("path")
 const { systemURL } = process.env
 
 class controller {
-    static async welcome(req, res, next) {
+    static async allData(req, res, next) {
         try {
             let alldata = await URL.find()
             return res.status(200).json(alldata)

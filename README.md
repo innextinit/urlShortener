@@ -30,7 +30,7 @@ There should be two things here, the first for REST and the second for GraphQL.
 
 Method | Route | Controller
 -------|-------|-------|
-get | {{baseURL}}/ | welcome
+get | {{baseURL}}/ | allData
 post | {{baseURL}}/ | URLpost
 get | {{baseURL}}/:code | URLredirect
 
