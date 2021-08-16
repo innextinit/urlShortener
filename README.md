@@ -21,7 +21,7 @@ When this done, input the mongodb url and other information inside it.
 
 Start the server for REST and GraphQL by running `node index.js` in both folder
 ```
-$ node index.js
+$ node index.js && cd GraphGL/ && node index.js
 
 ```
 
